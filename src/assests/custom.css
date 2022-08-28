@@ -1,0 +1,231 @@
+.bg-white{
+  background-color: white !important;
+}
+.h-90{
+  height: 91px;
+}
+.h-80 {
+  height: 80px;
+}
+.div-header {
+  height: 80px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1360px !important;
+  margin: auto;
+  position: relative;
+}
+.footer-cont-div {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    max-width: 1360px !important;
+    margin: auto;
+    position: relative;
+  }
+  .footer-cont-column {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-div-footer {
+    background-color: #0d2fa3!important;
+    width: 100%;
+  }
+.btn-cont {
+  display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: self-end;
+}
+.footer-btn-column {
+    display: flex;
+    float: right;
+}
+.btn-header {
+  font-weight: 300;
+  font-size: 16px;
+  color: #101010 !important;
+  background: none;
+  border: none;
+  text-decoration: none;
+  margin-top: 13px;
+}
+.active-btn {
+    font-weight: 600;
+    font-size: 16px;
+    color: #101010 !important;
+    background: none;
+    border: none;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.btn-contact {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px !important;
+  border-radius: 4px;
+  position: relative;
+  top: 4px;
+  background-color: #1a56ff !important;
+  border: none;
+  width: 104px;
+  font-weight: 500;
+  height: 40px;
+
+}
+.btn-align-contact{
+  align-self: center;
+}
+.img-div {
+  padding-top: 15px;
+}
+.img-mb {
+  display: flex;
+  padding-top: 15px;
+}
+.ft-div-btn {
+    color: white!important;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.break-line-hr {
+    height: 2px;
+    background-color: #2f4db4;
+    border: none;
+}
+.align-content-ft{
+    color: #527efa!important;
+}
+.div-icons-social {
+    width: 18px;
+    /* margin-top: 5px; */
+}
+.mb-logo-humburger {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.pt-30{
+  padding-top: 30px;
+}
+.gp-30-btn{
+  gap: 28px;
+}
+@media (min-width: 982px) and (max-width: 5000px) {
+  .img-mb {
+    display: none;
+  }
+  .popup-display{
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 981px) {
+  .img-div {
+    display: none;
+  }
+  .mb-padding-header{
+    padding: 14px 50px 0 46px;
+  }
+  .btn-cont {
+    display: none;
+  }
+  .mb-popup-ul{
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    border-top: 3px solid #2ea3f2;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    padding: 5%;
+    margin-left: -9px;
+  }
+  .li-popup-mb{
+    border-bottom: 1px solid rgba(0,0,0,.03);
+    font-weight: 300;
+    font-size: 16px;
+    color: #101010!important;
+    padding: 10px 5%;
+    display: block;
+  }
+}
+@media (max-width:767px){
+  .mb-footer-column{
+    gap: 27px;
+    flex-direction: column;
+    padding: 19px 2px 23.5px 11.5px!important;
+  }
+  .mb-logo-scor{
+    width: fit-content;
+  }
+  .mb-btn-gap{
+    gap:0px;
+    width: 75%;
+    justify-content: space-between;
+  }
+  .mb-fs-14{
+    font-size: 14px;
+    margin: 0;
+  }
+  .mb-column-direction{
+    flex-direction: column;
+    padding: 31.5px 2px 24px 11.5px!important;
+  }
+  .mb-margin-0{
+    margin: 0 !important;
+  }
+  .mb-padding-header{
+    padding: 14px 12px 0 12px !important;
+  }
+  .mb-popup-ul{
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    border-top: 3px solid #2ea3f2;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    padding: 5%;
+    margin-left: -9px;
+  }
+  
+}
+.mt-3-px{
+  margin-top: 4px !important;
+}
+.social-div-background{
+  background: #2F4DB4 0% 0% no-repeat padding-box;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    border-radius: 4px;
+    margin-right: 20px;
+    text-align-last: center;
+    padding-top: 3px;
+}
+.icons-img-social{
+  max-width: 100%;
+    height: auto;
+    width: 93%;
+}
+.facebook-icon-img{
+  max-width: 100%;
+  width: 95%
+}
+
+@media (max-width:1022px){
+  .mb-47-px{
+    margin-bottom: 47px;
+  }
+}
